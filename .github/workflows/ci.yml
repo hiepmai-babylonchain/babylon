@@ -21,4 +21,4 @@ jobs:
     secrets: inherit
     with:
      publish: false
-     dockerfile: ./contrib/images/babylond/
+     dockerfile: ./contrib/images/babylond/Dockerfile
