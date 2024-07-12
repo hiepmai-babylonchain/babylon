@@ -10,7 +10,7 @@ jobs:
     uses: hiepmai-babylonchain/.github/.github/workflows/reusable_go_lint_test.yml@hiep/add-reusable-workflows
     with:
      run-unit-tests: true
-     run-integration-tests: false
+     run-integration-tests: true
      run-lint: true
      go-version: 1.21.4
      
