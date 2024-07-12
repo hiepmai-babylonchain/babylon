@@ -11,7 +11,7 @@ jobs:
     with:
      run-unit-tests: true
      run-integration-tests: false
-     run-lint: false
+     run-lint: true
      go-version: 1.21.4
      
      
@@ -21,3 +21,4 @@ jobs:
     secrets: inherit
     with:
      publish: false
+     dockerfile: ./contrib/images/babylond/
