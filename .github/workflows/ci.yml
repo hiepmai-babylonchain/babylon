@@ -12,9 +12,6 @@ jobs:
      run-unit-tests: true
      run-integration-tests: true
      run-lint: true
-     integration-tests-command: |
-        sudo apt update
-        sudo make test-e2e
      
   docker_pipeline:
     needs: ["lint_test"]
